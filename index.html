@@ -136,10 +136,10 @@
         </section>
         <!-- Two -->
         <section id="two" class="wrapper style2 alt py-8">
-            <div class="inner">
-                <div class="spotlight flex flex-col md:flex-row items-start md:justify-between">
+            <div class="inner flex flex-wrap justify-between"> <!-- Changed to flex-wrap and justify-between -->
+                <div class="spotlight flex flex-col md:flex-row items-start md:justify-between w-full md:w-1/3 mt-8 md:mt-0"> <!-- Adjusted width for horizontal layout -->
                     <div class="image">
-                        <img src="capstone.jpg.png" alt="" class="w-full md:w-1/2" />
+                        <img src="capstone.jpg.png" alt="" class="w-full" />
                     </div>
                     <div class="content mt-4 md:mt-0 md:ml-8">
                         <h3 class="text-xl font-bold">eCommerce Capstone Project</h3>
@@ -157,10 +157,10 @@
                         </ul>
                     </div>
                 </div>
-                <hr class="my-8" />
-                <div class="spotlight flex flex-col md:flex-row items-start md:justify-between mt-8">
+
+                <div class="spotlight flex flex-col md:flex-row items-start md:justify-between w-full md:w-1/3 mt-8 md:mt-0"> <!-- Adjusted width for horizontal layout -->
                     <div class="image">
-                        <img src="inventory.png" alt="" class="w-full md:w-1/2" />
+                        <img src="inventory.png" alt="" class="w-full" />
                     </div>
                     <div class="content mt-4 md:mt-0 md:ml-8">
                         <h3 class="text-xl font-bold">Inventory Management System</h3>
@@ -173,14 +173,34 @@
                         </p>
                         <ul class="actions mt-4">
                             <li>
-                                <a href="https://inventorymanagmentapp.netlify.app/" class="button alt bg-green-500 text-white px-4 py-2 rounded">View Inventory Management</a>
+                                <a href="https://inventorymanagmentapp.netlify.app/" class="button alt bg-green-500 text-white py-2 rounded">View Inventory Management</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="spotlight flex flex-col md:flex-row items-start md:justify-between w-full md:w-1/3 mt-8 md:mt-0"> <!-- Adjusted width for horizontal layout -->
+                    <div class="image">
+                        <img src="budgettracker.png" alt="" class="w-full" />
+                    </div>
+                    <div class="content mt-4 md:mt-0 md:ml-8">
+                        <h3 class="text-xl font-bold">Budget Tracker</h3>
+                        <p class="mt-2">
+                            This is a front-end web application designed to help users manage their finances efficiently. Built using HTML, CSS, and JavaScript,
+                            this project is focused on creating interactive, user-friendly applications with a focus on functionality and design. The app dynamically
+                            updates the balance, helping users keep track of their financial status in real-time. Transactions can be categorized into groups like
+                            Food, Bills, Entertainment, etc., allowing for better organization and insights into spending habits. All transaction data is saved in the
+                            browser's local storage, ensuring that user information persists across sessions without needing a backend server.
+                        </p>
+                        <ul class="actions mt-4">
+                            <li>
+                                <a href="https://1budgettracker.netlify.app/" class="button alt bg-green-500 text-white px-4 py-2 rounded">View Budget Tracker</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <hr class="my-8" />
         <!-- Contact -->
         <section id="contact" class="wrapper py-8">
             <div class="inner flex flex-col md:flex-row items-start md:justify-between">
@@ -228,16 +248,16 @@
             <p>
 				I was born in 1993 in Baton Rouge, Louisiana, a city known for its vibrant culture, rich history, and southern charm. Growing up, I was always fascinated by technology. I remember being a kid, sitting in front of the tv while my dad played Star Fox on the Nintendo 64, cheering him on like it was a football game. As technology advanced, so did my interest and curiosity, driving me to explore and learn more about the digital world.</p>
 
-				Despite my love for technology, my professional journey initially took me down a different path. For the past 15 years, I immersed myself in the culinary arts, a field that offered its own unique challenges and rewards. Starting from the bottom, I worked my way up through various roles including server, line cook, and eventually, chef. Each position taught me valuable lessons about discipline, teamwork, and the importance of precision.</p>
+				Despite my love for technology, my professional journey initially took me down a different path. For the past 15 years, I immersed myself in the culinary arts, a field that offered its own unique challenges and rewards. Starting from the bottom, I worked my way up through various roles including server, line cook, and eventually, chef. Each position taught me valuable lessons about discipline, teamwork, and the importance of precision.
 				
-				In the high-pressure, fast-paced environment of a restaurant kitchen, I developed a robust set of skills. Time management became second nature as I balanced multiple tasks simultaneously, ensuring that each dish met high standards of quality and was served promptly. The ability to stay calm under pressure and think on my feet was crucial, especially during busy service hours when the kitchen was at its most chaotic.</p>
+				In the high-pressure, fast-paced environment of a restaurant kitchen, I developed a robust set of skills. Time management became second nature as I balanced multiple tasks simultaneously, ensuring that each dish met high standards of quality and was served promptly. The ability to stay calm under pressure and think on my feet was crucial, especially during busy service hours when the kitchen was at its most chaotic.
 				
 				While I enjoyed the culinary world, my passion for technology never waned. I began to realize that the skills I had honed in the kitchen – time management, problem-solving, and working efficiently under pressure – were equally valuable in the tech industry. This realization sparked a desire to transition into a new career where I could merge my interests and skills.
 				
-				In 2023, I took the plunge and started teaching myself web development. I spent countless hours learning online, building small projects, and experimenting with different technologies. My dedication paid off when I enrolled in a bootcamp through Fullstack Academy in early 2024. This intensive program further solidified my knowledge and equipped me with a strong foundation in modern web development technologies.</p>
+				In 2023, I took the plunge and started teaching myself web development. I spent countless hours learning online, building small projects, and experimenting with different technologies. My dedication paid off when I enrolled in a bootcamp through Fullstack Academy in early 2024. This intensive program further solidified my knowledge and equipped me with a strong foundation in modern web development technologies.
 				
 				As I embark on this new journey in the tech field, I am excited about the endless possibilities and opportunities to grow. I am eager to apply my unique blend of culinary and technical skills to build innovative solutions and contribute to the ever-evolving digital landscape.
-            </p>
+            
         </div>
     </div>
     <!-- Footer -->
@@ -353,5 +373,5 @@
             }
         }
     </script>
-</body>
-</html>
+
+
